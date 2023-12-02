@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container p-5 my-5 bg-dark text-white">
+        <h1>Benim İnternet Sitem</h1>
+        <br>
+        <p>Peki bu sitedde neler var</p>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://music.youtube.com/"> <img
+                        src="https://music.youtube.com/img/on_platform_logo_dark.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">merhaba</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">siteme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">hoşgeldinz</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+        <form>
+            <div class="row">
+                <h4>Giriş Yapın</H4>
+              <div class="col-3">
+                <P> Mail: &nbsp;</P>
+                <input type="text" class="form-control" placeholder="mail giriniz" name="email">
+              </div>
+              <div class="col-3">
+               <P> Şifre: &nbsp; </P>
+                <input type="password" class="form-control" placeholder="şifre giriniz" name="pswd">
+              </div>
+            </div>
+          </form>
+
+    </div>
+    <div class="container mt-9">
+        <div class="alert alert-dark alert-dismissible text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>HEY!!!</strong> SİTEMİZE BAĞIŞ YAPARAK BİZE DESTEK OLABİLİRSİNİZ
+        </div>
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Bilgilerim</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ahmet Kaan</td>
+                            <td>Çelenk</td>
+                            <td>akaanclnk@gmail.com</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>Primary</td>
+                            <td>Joe</td>
+                            <td>joe@example.com</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Success</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Danger</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>Info</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Warning</td>
+                            <td>Refs</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>Active</td>
+                            <td>Activeson</td>
+                            <td>act@example.com</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Secondary</td>
+                            <td>Secondson</td>
+                            <td>sec@example.com</td>
+                        </tr>
+                        <tr class="table-light">
+                            <td>Light</td>
+                            <td>Angie</td>
+                            <td>angie@example.com</td>
+                        </tr>
+                        <tr class="table-dark">
+                            <td>Dark</td>
+                            <td>Bo</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-3">
+                <h3>Ben</h3>
+                <img src="https://pbs.twimg.com/profile_images/1729042740917194752/_7ZgkaFU_400x400.jpg"
+                    class="rounded-circle" alt="Cinque Terre" width="250">
+            </div>
+            <div class="col-sm-3">
+                <h3>Hakkımda Daha Fazlası...</h3>
+                <p>Fikirlere Kurşun İşlemez demişer</p>
+                <button type="button" class="btn btn-dark">Doğru Demişler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-black col-10 text-xl-center" style="width:40%"></div>
+
+</body>
+
+</html>
